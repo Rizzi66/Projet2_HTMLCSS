@@ -63,29 +63,77 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    height: 79px;
 }
 
-header img {
-    height: 19px;
+.header__logo {
     padding: 30px 0;
 }
 
-.main-nav {
+.header__nav {
     display: flex;
     list-style-type: none;
     margin: 0px;
-    padding: 0px;
+    height: 37px;
+    align-items: flex-end;
 }
 
-.main-nav li {
-    padding-top: 18px;
+.header__nav li {
     margin-left: 68px;
+    padding-top: 16px;
     font-size: 16px;
 }
 
-.main-nav li:hover {
+.header__nav li:hover {
     border-top: solid 2px var(--main-color);
     color: var(--main-color);
+}
+
+/****** Formulaire de recherche ***********/
+
+.form-recherche {
+    display: flex;
+}
+
+.form-position{
+    color: black;
+    background-color: var(--main-bg-color);
+    width: 50px;
+    height: 49px;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 15px 0 0 15px;
+}
+
+.form-input{
+    width: 195px;
+    height: 49px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: var(--main-bg-color) solid 1px;
+}
+
+.form-button{
+    display: flex;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0 16px 0 16px;
+    font-weight: 30px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+
+}
+
+.form-button p {
+    font-weight: 30px;
+}
+
+.form-search{
+    display: none;
+    
+
 }
 
 /****** Hebergements And Populaires ***********/
