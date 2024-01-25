@@ -25,43 +25,43 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
+        <main class="main">
+            <section class="accueil">
                 <div>
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
-                <form method="get" action="" class="form-recherche">
-                    <i class="fa-solid fa-location-dot form-position" aria-hidden="true"></i>
-                    <input type="search" name="recherche" value="Marseille, France" class="form-input" autofocus>
-                    <button type="submit" class="form-button">
-                        <p>Rechercher</p>
-                        <i class="fa-solid fa-magnifying-glass form-search" aria-hidden="true"></i>
-                    </button>
+                <form class="recherche" method="get" action="">
+                    <i class="fa-solid fa-location-dot recherche__icon" aria-hidden="true"></i>
+                    <input class="recherche__input" type="search" name="recherche" value="Marseille, France" autofocus>
+                    <div class="recherche__button">
+                        <i class="fa-solid fa-magnifying-glass recherche__buttonIcon" aria-hidden="true"></i>
+                        <P class="test">Rechercher</P>
+                    </div>
                 </form>
-                <div>
-                    <p>Filtres</p>
-                    <div>
-                        <div>
-                            <i class="fa-solid fa-money-bill-wave" aria-hidden="true"></i>
+                <div class="filtres">
+                    <p class="filtres__titre">Filtres</p>
+                    <div class="filtres__buttons">
+                        <div class="filtres__button">
+                            <i class="fa-lg fa-solid fa-money-bill-wave" aria-hidden="true"></i>
                             <p>Économique</p>
                         </div>
-                        <div>
-                            <i class="fa-solid fa-person" aria-hidden="true"></i>
+                        <div class="filtres__button">
+                            <i class="fa-lg fa-solid fa-person" aria-hidden="true"></i>
                             <p>Familial</p>
                         </div>
-                        <div>
-                            <i class="fa-solid fa-heart" aria-hidden="true"></i>
+                        <div class="filtres__button">
+                            <i class="fa-lg fa-solid fa-heart" aria-hidden="true"></i>
                             <p>Romantique</p>
                         </div>
-                        <div>
-                            <i class="fa-solid fa-fire" aria-hidden="true"></i>
+                        <div class="filtres__button">
+                            <i class="fa-lg fa-solid fa-fire" aria-hidden="true"></i>
                             <p>Nos pépites</p>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <i class="fa-solid fa-info"></i>
+                <div class="accueil__information">
+                    <i class="fa-2xs fa-solid fa-info accueil__informationIcon"></i>
                     <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
