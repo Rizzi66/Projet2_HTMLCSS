@@ -1,0 +1,36 @@
+/****** Search bar ***********/
+.search {
+    display: flex;
+    height: 49px;
+}
+
+.search-icon-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: var(--main-bg-color);
+    width: 50px;
+    border-radius: 15px 0 0 15px;
+}
+
+.search-input {
+    width: 195px;
+    text-align: center;
+    border: var(--main-bg-color) solid 1px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: var(--main-color);
+    padding-inline: 16px;
+    border-radius: 0 15px 15px 0;
+}
+
+.search-button-icon {
+    display: none;
+    color: white;
+}
+

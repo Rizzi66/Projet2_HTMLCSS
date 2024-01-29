@@ -1,0 +1,32 @@
+/****** Filters ***********/
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter-title {
+    padding-right: 15px;
+}
+
+.filter-container-buttons {
+    display: flex;
+}
+
+.filter-button {
+    display: flex;  
+    align-items: center;
+    height: 50px;
+    padding-inline: 19px;
+    border: var(--gris-sombre) solid 2px;
+    border-radius: 25px;
+    box-sizing: border-box;     
+    margin-right: 15px;    
+}
+
+.filter-button i {
+    padding-right: 10px;     
+}
+
+.filter-button:hover {
+    background-color: var(--filter-bg-color);
+}
