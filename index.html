@@ -20,8 +20,8 @@
             <img class="header__logo" src="./images/logo/Booki.png" alt="Logo Booki">
             <nav>
                 <ul class="header__nav">
-                    <li><a href="#hebergements">Hébergements</a></li>
-                    <li><a href="#activites">Activités</a></li>
+                    <li><a href="#hebergements__title">Hébergements</a></li>
+                    <li><a href="#activites__title">Activités</a></li>
                 </ul>
             </nav>
         </header>
@@ -67,15 +67,15 @@
             </section>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                    <h2 id="hebergements">Hébergements à Marseille</h2>
-                    <div>
+                    <h2 id="hebergements__title" class="hebergements__title">Hébergements à Marseille</h2>
+                    <div class="hebergements_cards">
                         <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant deux lit simple">
                                 <h3 class="card-title">Hôtel du port</h3>
                                 <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
                                 <div class="card-rating">
-                                    <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
+                                    <i class="fa-xs fa-solid fa-star card-i" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                     <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -160,7 +160,7 @@
                             </article>
                         </a>
                     </div>
-                    <p><a href="#">Afficher plus</a></p>
+                    <p class="afficherplus"><a href="#">Afficher plus</a></p>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -228,55 +228,55 @@
                     </div>
                 </section>
             </div>
-            <section>
-                <h2 id="activites">Activités à Marseille</h2>
-                <div>
+            <section class="activites">
+                <h2 id="activites__title" class="activites__title">Activités à Marseille</h2>
+                <div class="activites__content">
                     <a href="#">
-                        <article>
+                        <figure class="activites__figure">
                             <img src="./images/activites/reno-laithienne.jpg" alt="Image d'un port avec plusieurs bateau">
                             <h3>Vieux-Port</h3>
-                        </article>
+                        </figure>
                     </a>
                     <a href="#">
-                        <article>
+                        <figure class="activites__figure">
                             <img src="./images/activites/paul-hermann.jpg" alt="Image d'un fort dans les montagnes">
                             <h3>Fort de Pomègues</h3>
-                        </article>
+                        </figure>
                     </a>
                     <a href="#">
-                        <article>
+                        <figure class="activites__figure">
                             <img src="./images/activites/kilyan-sockalingum.jpg" alt="Image des calanques et de la mer">
                             <h3>Parc national des Calanques</h3>
-                        </article>
+                        </figure>
                     </a>
                     <a href="#">
-                        <article>
+                        <figure class="activites__figure">
                             <img src="./images/activites/florian-wehde.jpg" alt="Image d'un village avec une église">
                             <h3>Notre-Dame-de-la-Garde</h3>
-                        </article>
+                        </figure>
                     </a>
                 </div>
             </section>
         </main>
         <footer>
-            <div>
+            <div class="footer__div">
                 <h3>À propos</h3>
-                <ul>
+                <ul class="footer__ul">
                     <li><a href="#">Fonctionnement du site</a></li>
                     <li><a href="#">Conditions générales</a></li>
                     <li><a href="#">Données et confidentialité</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="footer__div">
                 <h3>Nos hébergements</h3>
-                <ul>
+                <ul class="footer__ul">
                     <li><a href="#">Charte qualité</a></li>
                     <li><a href="#">Proposer votre hôtel</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="footer__div">
                 <h3>Assistance</h3>
-                <ul>
+                <ul class="footer__ul">
                     <li><a href="#">Centre d'aide</a></li>
                     <li><a href="#">Nous contacter</a></li>
                 </ul>
