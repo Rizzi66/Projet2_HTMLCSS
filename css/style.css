@@ -105,12 +105,13 @@
         padding-left: 0;
     }
 
-    .header-nav li {
+    .header-nav a {
+        display: block;
         margin-left: 68px;
         padding-top: 16px;
     }
 
-    .header-nav li:hover {
+    .header-nav a:hover {
         border-top: solid 2px var(--main-color);
         color: var(--main-color);
         padding-top: 14px;
@@ -376,11 +377,11 @@
             justify-content: center;
         }
 
-        .header-nav a {
+        .header-nav li {
             width: 50%;
         }
 
-        .header-nav li {
+        .header-nav a {
             text-align: center;
             margin-left: 0;
             padding-top: 0;
@@ -388,7 +389,7 @@
             border-bottom: solid 2px var(--main-bg-color);
         }
 
-        .header-nav li:hover {
+        .header-nav a:hover {
             padding-top: 0;
             padding-bottom: 15px;
             border-top: solid 0px var(--main-color);
@@ -483,7 +484,7 @@
                 margin-top: 15px;
                 min-width: 280px;
             }
-            
+
 
     /****** Activités ***********/
         .activites-title {
